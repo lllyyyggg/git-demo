@@ -18,8 +18,8 @@
 	* 	`git push`  会将commit的内容提交到远端仓库。
 	* 	`git log` 查看git commit日志。
 	* 	`git pull` 从远端拉到本地，并且会强制覆盖本地的文件。和`git fetch -all`一样。
-	* 	`git rm filename` 删除文件
-	* 	`git mv file1 file2` 重命名文件
+	* 	`git rm filename` 删除本地仓库文件
+	* 	`git mv file1 file2` 重命名本地仓库文件
 	* 	`git commit -amend` 这次的commit会代替前一次的commit的，一般用于在commit之后发现还有文件忘记添加了，类似于补卡。 
 	* 	`git checkout -b mybrach` 切换到其他分支，`git checkout master` 切换到其他分支
 	* 	`git reset --hard 序列号` 回退版本

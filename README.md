@@ -55,13 +55,18 @@
 	  `git push origin mybranch:mybranch`
 	  
 	* 然后到github网站上去创建pull request。
-	
-10. 总结开发流程。
+
+10. 如果在pull的时候报错了。`fatal: refusing to merge unrelated histories`
+  
+    使用如下命令:`git pull origin master --allow-unrelated-histories`来解决。	
+11. 总结开发流程。
 
 	* 克隆项目到本地。
 	* 创建自己的分支。
 	* 然后将自己的分支同步到github上。
-	* 如果自己的分支上开发完成，可以选择`git merge mybranch`。	* 如果还没有开发完成，可以直接`git push`。
+	* 如果自己的分支上开发完成，可以选择`git merge mybranch`。	
+	* 如果还没有开发完成，可以直接`git push`。
 	* 然后到github上创建自己的pull request。
 	* 等待自己的分支被干掉。	
-	* ok。 			
+	* ok。
+ 			

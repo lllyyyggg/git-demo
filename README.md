@@ -24,7 +24,11 @@
 	* 	`git checkout -b mybrach` 切换到其他分支，`git checkout master` 切换到其他分支
 	* 	`git reset --hard 序列号` 回退版本
 	*  `git branch --all` 查看所有分支。
-
+	*  `git config user.name` 查看当前用户
+	*  `git config user.email` 查看当前用户邮箱
+	*  `git config --global user.name "lllyyyggg"` 切换用户名 
+	*  `git config --global user.email "YOUREMAIL"` 切换用户邮箱
+	
 4. .gitignore文件。<br>
 标示要忽略的文件。*.log表示忽略所有.log结尾的文件。  /hello表示忽略hello目录及其下所有文件的提交。
 
